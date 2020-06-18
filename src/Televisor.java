@@ -1,8 +1,8 @@
 public class Televisor {
     boolean status;
 
-    Televisor(boolean s) {
-        status = s;
+    Televisor(boolean status) {
+        this.status = status;
     }
 
     void turnOn() {
